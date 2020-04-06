@@ -1,0 +1,115 @@
+* {
+    background-color: white;
+}
+
+html {
+    font-family: 'Spartan', sans-serif;
+}
+
+main {
+    background-color: white;
+}
+
+nav {
+    width: 1920px;
+    height: 80px;
+    margin-left: 650px;
+    padding-top: 30px;
+
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+    margin-left: 100px;
+}
+
+li a {
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: 'Spartan', sans-serif;
+    font-size: 25px;
+    color: #2f2f2f;
+
+}
+li a:hover {
+    background-color: lightpink;
+}
+
+h1 {
+    margin-left: 130px;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.questions {
+
+    width: 904px;
+    height: 925px;
+    position: relative;
+    margin-left: 130px;
+    
+}
+
+.personas {
+
+    width: 904px;
+    height: 925px;
+    position: relative;
+    margin-left: 130px;
+    padding-top: 30px;
+}
+
+.hannah {
+
+    width: 1300px;
+    height: 825px;
+    position: relative;
+    margin-left: 130px;
+    padding-top: 30px;
+}
+
+.kate {
+
+    width: 1300px;
+    height: 825px;
+    position: relative;
+    margin-left: 130px;
+    padding-top: 30px;
+}
+
+h2 {
+    margin-left: 130px;
+    padding-top: 30px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.logo {
+    width: 1000px;
+    height: 1200px;
+    margin-left: 130px;
+}
+
+.sitemap {
+     width: 1300px;
+    height: 825px;
+    position: relative;
+    margin-left: 130px;
+    padding-top: 30px;
+}
+
+.sketch{
+     width: 1300px;
+    height: 825px;
+    position: relative;
+    margin-left: 130px;
+    padding-top: 30px;
+}
