@@ -1,0 +1,205 @@
+.navLogo {
+    padding-left: 30px;
+}
+
+body {
+    background-color: #E5E2D2;
+}
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #E5E2D2;
+    color: #282832;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: #282832;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+/* nav bar css starts */
+/* The sidebar menu */
+.sidebar {
+    height: 100%;
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #282832;
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 1s;
+    /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+    padding: 12px 20px 50px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    color: #E5E2D2;
+    display: block;
+    transition: 1s;
+
+}
+
+.sidebar a:hover {
+    color: #90A778;
+}
+
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 60px;
+    margin-left: 50px;
+}
+
+
+.openbtn {
+    font-size: 35px;
+    cursor: pointer;
+    background-color: #E5E2D2;
+    color: #282832;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #282832;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left 1s;
+    /* If you want a transition effect */
+    padding: 20px;
+}
+
+/* nav bar  code ends */
+
+
+mainHeader {
+    position: relative;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: #282832;
+    font-size: 60px;
+    text-decoration: underline;
+    font-family: 'Lora', serif;
+    padding-bottom: 60px;
+
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 4px;
+     padding-bottom: 30px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+ .grid-container {
+    display: grid;
+    position: center;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: #FFCDC3;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    color: #282832;
+}
+
+.item1 {
+    justify-content: center;
+    grid-column: 3 / 4;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.footer {
+    width: 100%;
+    margin-top: 40px;
+    background-color: #E5E2D2;
+    text-align: center;
+    color: #282832;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    word-spacing: 80px;
+    font-family: 'Comfortaa', cursive;
+
+}

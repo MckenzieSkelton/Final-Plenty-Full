@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/event.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap" rel="stylesheet">
+    <title>Event</title>
+</head>
+
+<body>
+    <section>
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            Check out our recent recipes!
+        </div>
+
+        <script src="java/event.js"></script>
+
+        <div id="mySidebar" class="sidebar">
+            <div class="navLogo"><img src="images/logo.png" alt="logo of plenty full"></div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+            <a href="event.html">Vegetarian Night</a>
+            <a href="workshop.html">Workshops</a>
+            <a href="about.html">About Us</a>
+            <a href="#Search">Search</a>
+        </div>
+
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776; </button>
+        </div>
+    </section>
+
+    <div class="container">
+        <img src="images/eventHeadertwo.jpg" style="width: 100%" alt="">
+        <div class="centered">
+            <h2 style="font-size:2vw;">Welcome to Vegetarian Night</h2>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div class="item1">
+            <p>
+                Wanting to try something different, Fresh, healthy and sweet dishes to tempt you into something new? <br> Try tasty new pasta dishes or a morning boost with our exciting breakfast ideas.
+                <br>
+                <br>
+
+                On June 23rd plenty full is hosting a new workshop all about cooking vegetarian food on a budget. <br> Our cooks are going to be teaching a variety of dishes brsome new and some classics using locally sourced <br> fresh produce. <br><br>This workshop is only running for one night so book in now to secure your place for this exciting night! </p>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <img src="images/eventGrind1.jpg">
+        <img src="images/eventGrid2.jpg">
+        <img src="images/evntGrid3.jpg">
+    </div>
+
+    <div class="grid-container">
+        <div class="item1">
+            <p> “Food is for eating, and good food is to be enjoyed… I think food is, actually, very beautiful in itself.” – Delia Smith
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <img src="images/workshopOne.jpg">
+        <img src="images/workshopTwo.jpg">
+        <img src="images/workshopThreejpg.jpg">
+    </div>
+    <!-- Button to open the modal -->
+    <button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+
+    <!-- The Modal (contains the Sign Up form) -->
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">Close</span>
+        <form class="modal-content" action="/action_page.php">
+            <div class="container">
+                <p>Register for Workshops<p>
+                        <p>Fill in the form to register with us </p>
+                        <hr>
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+
+                        <label for="psw-repeat"><b>Workshop</b></label>
+                        <input type="password" placeholder="e.g Sweet treats workshops" name="psw-repeat" required>
+
+
+                        <p>By creating an account you agree to our .</p>
+
+                        <div class="clearfix">
+                            <button type="submit" class="signup">Register</button>
+                        </div>
+            </div>
+        </form>
+
+    </div>
+
+    <div class="footer">
+        <p> Contact Blog About Privacy</p>
+    </div>
+
+</body></html>
